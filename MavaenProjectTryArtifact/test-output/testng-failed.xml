@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [softwaretestingmaterial]">
+  <test name="testngTest(failed)">
+    <classes>
+      <class name="test.NewTestMavenTry">
+        <methods>
+          <include name="openMyBlog"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- test.NewTestMavenTry -->
+    </classes>
+  </test> <!-- testngTest(failed) -->
+</suite> <!-- Failed suite [softwaretestingmaterial] -->
