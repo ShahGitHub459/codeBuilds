@@ -12,7 +12,7 @@ public class NewTestMavenTry {
 	  @Test
 	  public void openMyBlog() {
 		driver.get("https://www.softwaretestingmaterial.com/");
-		System.out.print("------------------------------HELLO----------------------------------");
+		System.out.print("------------------------------HELLO----1------------------------------");
 	  }
 	  
 	  @BeforeClass
