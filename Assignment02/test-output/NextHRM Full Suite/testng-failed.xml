@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" parallel="tests" name="Failed suite [NextHRM Full Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="1" parallel="tests" name="Event Adding and Removing(failed)">
+    <parameter name="passWord" value="Shah3030"/>
+    <parameter name="baseURL" value="https://nexthrm.vteamslabs.com/"/>
+    <parameter name="EventName" value="Page Object Model"/>
+    <parameter name="tiMe" value="1:00"/>
+    <parameter name="userName" value="gulraiz.shabbir@nxb.com.pk"/>
+    <parameter name="startDate" value="2021-01-01"/>
+    <classes>
+      <class name="Skills.eventAddandDeletion">
+        <methods>
+          <include name="removeParametes"/>
+          <include name="login"/>
+          <include name="editEvent" invocation-numbers="0"/>
+          <include name="Logout"/>
+          <include name="destroyDriver"/>
+          <include name="initializeParameters"/>
+          <include name="initializeBrowser"/>
+        </methods>
+      </class> <!-- Skills.eventAddandDeletion -->
+    </classes>
+  </test> <!-- Event Adding and Removing(failed) -->
+</suite> <!-- Failed suite [NextHRM Full Suite] -->

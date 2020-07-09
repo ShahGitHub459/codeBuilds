@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="NextHRM Full Suite" thread-count="1" verbose="1" annotations="JDK" parallel="tests">
+<test name="Event Adding and Removing">
+<parameter name="baseURL" value="https://nexthrm.vteamslabs.com/"/>
+<parameter name="userName" value="gulraiz.shabbir@nxb.com.pk"/>
+<parameter name="passWord" value="Shah3030"/>
+<parameter name="EventName" value="Page Object Model"/>
+<parameter name="tiMe" value="1:00"/>
+<parameter name="startDate" value="2021-01-01"/>
+<classes>
+<class name="Skills.eventAddandDeletion"/>
+
+</classes>
+</test>
+</suite>

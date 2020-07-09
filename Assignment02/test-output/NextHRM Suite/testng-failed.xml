@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" parallel="tests" name="Failed suite [NextHRM Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="1" parallel="tests" name="skillsSet(failed)">
+    <parameter name="passWord" value="Shah3030"/>
+    <parameter name="baseURL" value="https://nexthrm.vteamslabs.com/"/>
+    <parameter name="Skill" value="Regression"/>
+    <parameter name="userName" value="gulraiz.shabbir@nxb.com.pk"/>
+    <classes>
+      <class name="Skills.SkillAddRemove">
+        <methods>
+          <include name="login"/>
+          <include name="removeSkill">
+            <parameter name="passWord" value="Shah3031"/>
+          </include> <!-- removeSkill -->
+          <include name="removeParametes"/>
+          <include name="initializeParameters"/>
+          <include name="initializeBrowser"/>
+          <include name="Logout"/>
+          <include name="destroyDriver"/>
+        </methods>
+      </class> <!-- Skills.SkillAddRemove -->
+    </classes>
+  </test> <!-- skillsSet(failed) -->
+</suite> <!-- Failed suite [NextHRM Suite] -->

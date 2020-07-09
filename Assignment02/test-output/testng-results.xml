@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-01-21T17:13:52 PKT" name="NextHRM Full Suite" finished-at="2020-01-21T17:14:44 PKT" duration-ms="52101">
+    <groups>
+    </groups>
+    <test started-at="2020-01-21T17:13:52 PKT" name="Event Adding and Removing" finished-at="2020-01-21T17:14:44 PKT" duration-ms="52101">
+      <class name="Skills.eventAddandDeletion">
+        <test-method is-config="true" signature="initializeParameters()[pri:0, instance:Skills.eventAddandDeletion@683dbc2c]" started-at="2020-01-21T17:13:52 PKT" name="initializeParameters" finished-at="2020-01-21T17:13:57 PKT" duration-ms="4695" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeParameters -->
+        <test-method is-config="true" signature="initializeBrowser(java.lang.String)[pri:0, instance:Skills.eventAddandDeletion@683dbc2c]" started-at="2020-01-21T17:13:57 PKT" name="initializeBrowser" finished-at="2020-01-21T17:13:58 PKT" duration-ms="1240" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://nexthrm.vteamslabs.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeBrowser -->
+        <test-method is-config="true" signature="login(java.lang.String, java.lang.String)[pri:0, instance:Skills.eventAddandDeletion@683dbc2c]" started-at="2020-01-21T17:13:58 PKT" name="login" finished-at="2020-01-21T17:14:02 PKT" duration-ms="3685" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[gulraiz.shabbir@nxb.com.pk]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Shah3030]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="setEvent(java.lang.String, java.lang.String)[pri:0, instance:Skills.eventAddandDeletion@683dbc2c]" started-at="2020-01-21T17:14:02 PKT" name="setEvent" finished-at="2020-01-21T17:14:04 PKT" duration-ms="1927" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Page Object Model]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2021-01-01]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setEvent -->
+        <test-method is-config="true" signature="Logout()[pri:0, instance:Skills.eventAddandDeletion@683dbc2c]" started-at="2020-01-21T17:14:04 PKT" name="Logout" finished-at="2020-01-21T17:14:04 PKT" duration-ms="395" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+        <test-method is-config="true" signature="login(java.lang.String, java.lang.String)[pri:0, instance:Skills.eventAddandDeletion@683dbc2c]" started-at="2020-01-21T17:14:04 PKT" name="login" finished-at="2020-01-21T17:14:07 PKT" duration-ms="2553" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[gulraiz.shabbir@nxb.com.pk]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Shah3030]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="editEvent(java.lang.String, java.lang.String)[pri:1, instance:Skills.eventAddandDeletion@683dbc2c]" started-at="2020-01-21T17:14:07 PKT" name="editEvent" finished-at="2020-01-21T17:14:36 PKT" duration-ms="29198" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Page Object Model]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1:00]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editEvent -->
+        <test-method is-config="true" signature="Logout()[pri:0, instance:Skills.eventAddandDeletion@683dbc2c]" started-at="2020-01-21T17:14:38 PKT" name="Logout" finished-at="2020-01-21T17:14:39 PKT" duration-ms="1040" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+        <test-method is-config="true" signature="login(java.lang.String, java.lang.String)[pri:0, instance:Skills.eventAddandDeletion@683dbc2c]" started-at="2020-01-21T17:14:39 PKT" name="login" finished-at="2020-01-21T17:14:42 PKT" duration-ms="2644" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[gulraiz.shabbir@nxb.com.pk]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Shah3030]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="deleteEvent(java.lang.String)[pri:2, instance:Skills.eventAddandDeletion@683dbc2c]" started-at="2020-01-21T17:14:42 PKT" name="deleteEvent" finished-at="2020-01-21T17:14:42 PKT" duration-ms="569" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Page Object Model]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteEvent -->
+        <test-method is-config="true" signature="Logout()[pri:0, instance:Skills.eventAddandDeletion@683dbc2c]" started-at="2020-01-21T17:14:42 PKT" name="Logout" finished-at="2020-01-21T17:14:42 PKT" duration-ms="251" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+        <test-method is-config="true" signature="destroyDriver()[pri:0, instance:Skills.eventAddandDeletion@683dbc2c]" started-at="2020-01-21T17:14:42 PKT" name="destroyDriver" finished-at="2020-01-21T17:14:44 PKT" duration-ms="1640" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- destroyDriver -->
+        <test-method is-config="true" signature="removeParametes()[pri:0, instance:Skills.eventAddandDeletion@683dbc2c]" started-at="2020-01-21T17:14:44 PKT" name="removeParametes" finished-at="2020-01-21T17:14:44 PKT" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeParametes -->
+      </class> <!-- Skills.eventAddandDeletion -->
+    </test> <!-- Event Adding and Removing -->
+  </suite> <!-- NextHRM Full Suite -->
+</testng-results>

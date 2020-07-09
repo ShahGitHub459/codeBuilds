@@ -1,0 +1,54 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="NextHRM Full Suite" thread-count="1" verbose="1" annotations="JDK" parallel="tests">
+<test name="skillsSet and Removing">
+<parameter name="baseURL" value="https://nexthrm.vteamslabs.com/"/>
+<parameter name="userName" value="gulraiz.shabbir@nxb.com.pk"/>
+<parameter name="passWord" value="Shah3030"/>
+<parameter name="Skill" value="Regression"/>
+<parameter name="EventName" value="Page Object Model"/>
+<parameter name="tiMe" value="Page Object Model"/>
+<parameter name="startDate" value="2021-01-01"/>
+<classes>
+<class name="Skills.SkillAddRemove">
+<methods>
+<include name="setSkill">
+</include>
+<include name="removeSkill">
+</include>
+</methods>
+</class>
+</classes>
+</test>
+<test name="skillsSet Only">
+<parameter name="baseURL" value="https://nexthrm.vteamslabs.com/"/>
+<parameter name="userName" value="gulraiz.shabbir@nxb.com.pk"/>
+<parameter name="passWord" value="Shah3030"/>
+<parameter name="Skill" value="Regression"/>
+<classes>
+<class name="Skills.SkillAddRemove">
+<methods>
+<include name="setSkill">
+</include>
+<exclude name="removeSkill">
+</exclude>
+</methods>
+</class>
+</classes>
+</test>
+<test name="skills Removing Only">
+<parameter name="baseURL" value="https://nexthrm.vteamslabs.com/"/>
+<parameter name="userName" value="gulraiz.shabbir@nxb.com.pk"/>
+<parameter name="passWord" value="Shah3030"/>
+<parameter name="Skill" value="Regression"/>
+<classes>
+<class name="Skills.SkillAddRemove">
+<methods>
+<exclude name="setSkill">
+</exclude>
+<include name="removeSkill">
+</include>
+</methods>
+</class>
+</classes>
+</test>
+</suite>

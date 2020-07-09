@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="Skills.eventAddandDeletion">
+        <methods>
+          <include name="removeParametes"/>
+          <include name="setEvent"/>
+          <include name="login"/>
+          <include name="Logout"/>
+          <include name="destroyDriver"/>
+          <include name="initializeParameters"/>
+          <include name="initializeBrowser"/>
+        </methods>
+      </class> <!-- Skills.eventAddandDeletion -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
